@@ -1,5 +1,5 @@
 body {
-	padding: 10px;
+	padding: 1%;
 	margin: 1%;
 }
 
@@ -55,3 +55,50 @@ nav {
 	width: 80%;
 	margin: 10%;
 } 
+
+table {
+	padding: 2%;
+	margin: 0 auto;
+	line-height: 50px;
+	width: 65%;
+	padding-bottom: 5%;
+}
+
+th {
+	background-color: 	#e9a06f;
+	padding: 2%;
+	font-variant: small-caps;
+	font-size: 100%;
+	color: #ffffff;
+	line-height: 40px;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 2px solid #F66B0E;
+}
+
+th, tr td {
+	text-align: center;
+}
+
+th:first-child, tr td:first-child {
+	text-align: left;
+}
+
+tr td {
+	opacity: 0.6;
+}
+
+tr:hover td {
+	opacity: 1;
+	color: #339933;
+	font-weight: bold;
+	font-size:100%;
+	line-height: 60px;
+}
+
+td {
+	background-color: #e9a06f;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 90%;
+	border-bottom: 2px solid #ffffff;
+}
